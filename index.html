@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>CAN data convertor</h1>
+    <h2>Enter Massage ID and CAN Data</h2>
+    <div class="cont">
+        <div>
+            <input class="inp" id="massage-id" type="text" placeholder="Enter massage ID (29-bit)">
+            <input class="inp" id="can-data" type="text" placeholder="Enter CAN data">
+        </div>
+        <button class="btn" id="submit-btn">Convert</button>
+    </div>
+    <div class="res">
+        <h3 id="msgid"></h3>
+        <h3 id="pgn"></h3>
+        <hr>
+        <h3 id="spps"></h3>
+        <h3 id="item"></h3>
+    </div>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
